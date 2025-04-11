@@ -34,6 +34,9 @@ func (ds *DaySteps) Parse(datastring string) (err error) {
 	if err != nil {
 		return fmt.Errorf("invalid duration format: %v", err)
 	}
+	if duration <= 0 {
+		return fmt.Errorf("duration must be positive")
+	}
 	ds.Duration = duration
 	return nil
 }

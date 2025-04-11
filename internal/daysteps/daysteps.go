@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"personaldata"
-	"spentenergy"
+	"first-iteration/internal/personaldata"
+	"first-iteration/internal/spentenergy"
 )
 
 type DaySteps struct {

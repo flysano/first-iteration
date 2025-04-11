@@ -39,6 +39,7 @@ func (t *Training) Parse(datastring string) (err error) {
 		return fmt.Errorf("invalid duration format: %v", err)
 	}
 	t.Duration = duration
+	return nil
 }
 
 func (t Training) ActionInfo() (string, error) {

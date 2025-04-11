@@ -11,7 +11,7 @@ type DataParser interface {
 }
 
 func Info(dataset []string, dp DataParser) {
-	for _, data := dataset {
+	for _, data range := dataset {
 		err := dp.Parse(data)
 		if err != nil {
 			log.Printf("data parsing error: %v", err)

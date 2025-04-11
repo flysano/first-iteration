@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"first-iteration/internal/personaldata"
-	"first-iteration/internal/spentenergy"
+	"github.com/Yandex-Practicum/tracker/internal/personaldata"
+	"github.com/Yandex-Practicum/tracker/internal/spentenergy"
 )
 
 type DaySteps struct {
